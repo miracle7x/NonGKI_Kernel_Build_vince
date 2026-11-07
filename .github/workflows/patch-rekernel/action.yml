@@ -8,9 +8,9 @@ runs:
         shell: bash
         run: |
           cd $GITHUB_WORKSPACE/device_kernel/
-          cp /tmp/Patches/RekernelX/rkx-4.19.patch ./
-          patch -p1 < rkx-4.19.patch || { echo "::error::rkx-4.19.patch failed to apply"; exit 1; }
-          rm -f rkx-4.19.patch
+          cp /tmp/Patches/RekernelX/rkx-4.9.patch ./
+          patch -p1 < rkx-4.9.patch || { echo "::error::rkx-4.9.patch failed to apply"; exit 1; }
+          rm -f rkx-4.9.patch
 
           # Manual wiring: Kconfig/Makefile may already be modified by other patch steps,
           # so hook up drivers/rekernel_x/ here instead of inside the patch.
