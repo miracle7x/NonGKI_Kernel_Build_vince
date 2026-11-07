@@ -149,7 +149,7 @@ env:
   SUSFS_PATCH_FIXED: ""
 
   REKERNEL_ENABLE: "false"
-  DROIDSPACES_ENABLE: "true"
+  DROIDSPACES_ENABLE: "false"
 
   # ─────────────────────────────────────────────────────────────────────────
   # VFS 路径重定向后端（二选一，互斥！）
