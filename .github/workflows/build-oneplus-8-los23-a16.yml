@@ -79,7 +79,7 @@ env:
   EXTRA_CMDS : ""
 
   KERNEL_SOURCE : "https://github.com/miracle7x/kernel_xiaomi_vince_4.9.391_alkernelfinal.git"
-  KERNEL_BRANCH : "master"
+  KERNEL_BRANCH : "main"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
