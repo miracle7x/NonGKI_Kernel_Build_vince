@@ -63,8 +63,8 @@ on:
 
 env:
   # Device env
-  DEVICE_NAME : "oneplus_8"
-  DEVICE_CODENAME : "instantnoodle"
+  DEVICE_NAME : "redmi5_plus"
+  DEVICE_CODENAME : "vince"
 
   # AK3 刷机包在 recovery 里显示的标题行。
   # 格式: 管理器（分支名） + 集成内容 Built By hotsteel
@@ -78,8 +78,8 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : ""
 
-  KERNEL_SOURCE : "https://github.com/LineageOS/android_kernel_oneplus_sm8250.git"
-  KERNEL_BRANCH : "lineage-23.2"
+  KERNEL_SOURCE : "https://github.com/miracle7x/kernel_xiaomi_vince_4.9.391_alkernelfinal.git"
+  KERNEL_BRANCH : "master"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
@@ -91,7 +91,7 @@ env:
   GCC_32_BRANCH : "android12L-release"
 
   DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "vendor/kona-perf_defconfig"
+  DEFCONFIG_NAME : "vince_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
@@ -124,8 +124,8 @@ env:
   SUSFS_LKM_SOURCE : "https://github.com/Hotsteel2901/susfs4ksu-lkm.git"
   SUSFS_LKM_REF : "legacy"
 
-  AK3_SOURCE : "https://github.com/osm0sis/AnyKernel3.git"
-  AK3_BRANCH : "master"
+  AK3_SOURCE : "https://github.com/miracle7x/AnyKernel3.git"
+  AK3_BRANCH : "vince"
 
   BOOT_SOURCE : ""
 
@@ -190,7 +190,7 @@ env:
   SKIP_PATCH: "false"
 
   BUILD_OTHER_CONFIG: "true" # Merge config files.
-  MERGE_CONFIG_FILES: "vendor/oplus.config"
+  MERGE_CONFIG_FILES: ""
 
   FREE_MORE_SPACE: "false"
 
