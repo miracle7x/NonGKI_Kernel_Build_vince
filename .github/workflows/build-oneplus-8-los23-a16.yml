@@ -148,7 +148,7 @@ env:
   SUSFS_FOLDER_FIXED: ""
   SUSFS_PATCH_FIXED: ""
 
-  REKERNEL_ENABLE: "true"
+  REKERNEL_ENABLE: "false"
   DROIDSPACES_ENABLE: "true"
 
   # ─────────────────────────────────────────────────────────────────────────
